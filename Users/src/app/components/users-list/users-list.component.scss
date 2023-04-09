@@ -1,0 +1,32 @@
+
+table {
+    width: 80vw;
+    margin: auto;
+    margin-top: 3%;
+
+    thead {
+        tr {
+
+            th {
+                padding: 20px 20px;
+            }
+        }
+    }
+
+    tbody {
+        
+         tr {
+            
+            th {
+                padding: 20px 20px;
+                cursor: pointer;
+            }
+    
+            td {
+                padding: 20px 20px;
+                cursor: pointer;
+            }
+         }
+    }
+}
+

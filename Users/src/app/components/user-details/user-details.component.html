@@ -1,1 +1,14 @@
-<p>user-details works!</p>
+
+<div class="card" >
+  <div class="id">
+    <h4>{{ user?.id }}</h4>
+  </div>
+  <img src="https://media.istockphoto.com/id/539645584/cs/vektor/abstraktn%C3%AD-pozad%C3%AD-tmav%C3%A9ho-no%C4%8Dn%C3%ADho-gradientu-pozad%C3%AD-p%C5%99%C3%ADrodn%C3%AD-krajiny-vektorov%C3%A1-ilustrace.jpg?s=612x612&w=0&k=20&c=ka9pRjcoMnCUuz_iKN11L5e6mMGMb-QyhiLCuU4aEqo=" class="card-img-top" alt="...">
+  <div class="card-body">
+    <div class="box">
+      <h1>{{firstLetter }}</h1>
+    </div>
+    <h5 class="card-title">{{ user?.name }}</h5>
+    <p class="card-text">{{ user?.email }}</p>
+  </div>
+</div>

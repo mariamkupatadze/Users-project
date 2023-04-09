@@ -10,10 +10,7 @@ export class AuthorizationComponent  {
 
   incorrectUser: boolean = false;
 
-
-  constructor(private router: Router) {
-
-  } 
+  constructor(private router: Router) {} 
 
   onSubmit(registerForm: any) {
     if (
@@ -24,7 +21,5 @@ export class AuthorizationComponent  {
     } else {
         this.incorrectUser = true;
     }
-
   }
-
 }
